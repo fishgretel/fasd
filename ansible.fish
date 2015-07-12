@@ -1,6 +1,6 @@
 # taken from https://github.com/ansible/ansible/blob/devel/hacking/env-setup.fish
 
-function init --on-event init_direnv
+function init --on-event init_ansible
   if not set -q ANSIBLE_HOME
     echo "Please set ANSIBLE_HOME to the path of your ansible source clone."
   else
