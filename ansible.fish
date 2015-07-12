@@ -2,7 +2,7 @@
 
 function init --on-event init_ansible
   if not set -q ANSIBLE_HOME
-    echo "Please set ANSIBLE_HOME to the path of your ansible source clone.\Ansible can be fetched using 'git clone --depth 1 --recursive https://github.com/ansible/ansible.git'."
+    echo "Please set ANSIBLE_HOME to the path of your ansible source clone.\nAnsible can be fetched using 'git clone --depth 1 --recursive https://github.com/ansible/ansible.git'."
   else
     set PREFIX_PYTHONPATH $ANSIBLE_HOME/lib
     set PREFIX_PATH $ANSIBLE_HOME/bin
