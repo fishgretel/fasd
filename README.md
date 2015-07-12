@@ -26,7 +26,7 @@ In your `config.fish` prior to sourcing `init.fish` set accordingly:
 set -g ANSIBLE_HOME $HOME/ansible
 ```
 
-Finally, ansible should be ready for development:
+Finally, you should be ready for development - `ansible --version`:
 
 ```text
 ansible 2.0.0 (devel f40b66d841) last updated 2015/07/13 01:18:43 (GMT +200)
