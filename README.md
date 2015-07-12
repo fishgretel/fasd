@@ -7,7 +7,7 @@
 Ansible development for [Wahoo][Wahoo] / [fish](fishshell.com).
 
 ## Install
-> _Note_: You need to have `ansible` already installed and set `ANSIBLE_HOME` prior to loading Wahoo.
+> _Note_: You need to have `ansible` source code handy and set `ANSIBLE_HOME` prior to loading Wahoo.
 
 ```fish
 wa g ansible
@@ -17,6 +17,12 @@ In your `config.fish` prior to sourcing `init.fish`:
 
 ```fish
 set -g ANSIBLE_HOME $HOME/ansible
+```
+
+If not yet insglled ansible source can be fetched using
+
+```fish
+git clone --depth 1 --recursive https://github.com/ansible/ansible.git
 ```
 
 # License
