@@ -13,6 +13,12 @@ Ansible development for [Wahoo][Wahoo] / [fish](fishshell.com).
 wa g ansible
 ```
 
+In your `config.fish` prior to sourcing `init.fish`:
+
+```fish
+set -g ANSIBLE_HOME $HOME/ansible
+```
+
 # License
 
 [MIT](http://opensource.org/licenses/MIT) © [Tom Hensel][Author]
