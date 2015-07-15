@@ -22,7 +22,7 @@ wa g fasd
 ```
 
 > For compatibility with `autojump` and for the sake of simplicity the actual function is bound to `j`.
-> Please keep in mind that `fasd` will only autojump into directories you have `cd`in before.
+> Please keep in mind that `fasd` will only autojump into directories you have `cd`'ed to before.
 
 # License
 
