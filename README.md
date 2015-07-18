@@ -7,7 +7,7 @@
 Fasd Package for [Wahoo][Wahoo] / [fish](fishshell.com).
 
 ## Install
-> _Note_: You need to have `fasd` installed to loading Wahoo.
+> _Note_: You need to have `fasd` installed prior to loading Wahoo.
 
 On OSX `homebrew` has a keg for `fasd`:
 
