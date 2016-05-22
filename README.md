@@ -24,7 +24,7 @@ fisher gretel/fasd
 
 ## Usage
 
-
+[![asciicast](https://asciinema.org/a/6t3tuvd8ajy0ztg99epi48ki8.png)](https://asciinema.org/a/6t3tuvd8ajy0ztg99epi48ki8)
 
 [slack-link]: https://fisherman-wharf.herokuapp.com/
 [slack-badge]: https://fisherman-wharf.herokuapp.com/badge.svg
