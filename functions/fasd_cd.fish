@@ -7,3 +7,11 @@ function fasd_cd -d "fasd builtin cd"
     test -d "$ret"; and cd "$ret"; or printf "%s\n" $ret
   end
 end
+
+function z -d "fasd cd, same functionality as j in autojump"
+  fasd_cd -d $argv
+end
+
+function zz -d "fasd cd with interactive selection"
+  fasd_cd -di $argv
+end
