@@ -1,16 +1,6 @@
 # suggest paths
 complete -c fasd -a "(__fasd_print_completion)" -f
 
-# aliases
-complete -c a -a "(__fasd_print_completion -a)" -f
-complete -c d -a "(__fasd_print_completion -d)" -f
-complete -c f -a "(__fasd_print_completion -f)" -f
-complete -c s -a "(__fasd_print_completion)" -f
-complete -c sd -a "(__fasd_print_completion -d)" -f
-complete -c sf -a "(__fasd_print_completion -f)" -f
-complete -c z -a "(__fasd_print_completion -d)" -f
-complete -c zz -a "(__fasd_print_completion -d)" -f
-
 # suggest args
 complete -c fasd -s s -d "List all paths and scores" -f
 complete -c fasd -s l -d "List paths without scores" -f
