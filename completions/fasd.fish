@@ -1,4 +1,17 @@
-complete -c fasd -f
+# suggest paths
+complete -c fasd -a "(__fasd_print_completion)" -f
+
+# aliases
+complete -c f -w fasd
+complete -c a -w fasd
+complete -c d -w fasd
+complete -c s -w fasd
+complete -c sd -w fasd
+complete -c sf -w fasd
+complete -c z -w fasd
+complete -c zz -w fasd
+
+# suggest args
 complete -c fasd -s s -d "List all paths and scores" -f
 complete -c fasd -s l -d "List paths without scores" -f
 complete -c fasd -s i -d "Interactive mode" -f
