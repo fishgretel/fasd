@@ -20,7 +20,7 @@ $ fisher adityavm/fasd
 
 ## Usage
 
-Installing the plugin will enable the following aliases (same as fasd's bash aliases):
+Installing the plugin will enable the following functions (same as fasd's bash aliases):
 
 ```bash
 alias a="fasd -a"        # any
