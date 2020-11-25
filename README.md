@@ -15,7 +15,7 @@ $ brew install fasd
 With [fisherman]:
 
 ```fish
-$ fisher adityavm/fasd
+$ fisher add fishgretel/fasd
 ```
 
 ## Usage
