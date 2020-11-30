@@ -1,6 +1,6 @@
 # `fasd` (`fisher` plugin for `fish-shell`)
 
-Plugin for [`fish-shell`](https://fishshell.com/) to integrate fasd into efficiency-seeking workflows:
+Plugin for [`fish-shell`](https://fishshell.com/) to integrate [`fasd`](https://github.com/clvv/fasd) into efficiency-seeking workflows:
 
 > Fasd (pronounced similar to "fast") is a command-line productivity booster. Fasd offers quick access to files and directories for POSIX shells. It is inspired by tools like autojump, z and v. Fasd keeps track of files and directories you have accessed, so that you can quickly reference them in the command line.
 
