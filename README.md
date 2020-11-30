@@ -14,10 +14,10 @@ $ brew install fasd
 
 ## Install
 
-With [`fisherman`](https://github.com/jorgebucaran/fisher):
+With [`fisher`](https://github.com/jorgebucaran/fisher):
 
 ```fish
-$ fisher add fishgretel/fasd
+$ fisher install fishgretel/fasd
 ```
 
 ## Usage
@@ -39,9 +39,12 @@ Let's try one out:
 
 ```
 $ a fish
-4          /Users/tom/.dotfiles/.config/fish
-51.5272    /Users/tom/.config/fish
-64.5534    /Users/tom/.config/fisherman
+1.458      /Users/tom/.dotfiles/.config/fish/config.fish
+2.349      /Users/tom/Sync/code/pycopy/bin/activate.fish
+4.5339     /Users/tom/.config/fish/config.fish
+4.66506    /Users/tom/.config/fish/functions/update.fish
+4.6758     /Users/tom/Sync/prjcts/ExpressLRS/src/bin/activate.fish
+12         /Users/tom/.config/fish
 ```
 
 For more info, please check out the complete [fasd documentation][fasd].
