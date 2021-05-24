@@ -8,12 +8,12 @@ function __fasd_expand_vars -d "Expands only the first occurance of a variable i
     end
   end
   # The following pipe does the same thing as fasd --sanitize
-  printf '%s\\n' "$argv" | sed -e 's/\([^\]\)$( *[^ ]* *\([^)]*\)))*/\1\2/g' -e 's/\([^\]\)[|&;<>$`{}]\{1,\}/\1 /g' | tr -s " " \n
+  printf %s\n $argv | sed -e 's/\([^\]\)$( *[^ ]* *\([^)]*\)))*/\1\2/g' -e 's/\([^\]\)[|&;<>$`{}]\{1,\}/\1 /g' | tr -s " " \n
 end
 
 function __fasd_run -e fish_postexec -d "fasd records the directories changed into"
-  set -lx RETVAL $status
-  if test $RETVAL -eq 0 # if there was no error
+  if test $status -eq 0  # if there was no error
     command fasd --proc (__fasd_expand_vars $argv) > "/dev/null" 2>&1 &
+    disown
   end
 end
